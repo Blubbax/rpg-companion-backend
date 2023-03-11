@@ -1,4 +1,4 @@
-const Character = require("../model/Character");
+const Character = require("../model/character");
 
 const getSingleCharacter = (req, res) => {
     Character.findById(req.params.id, (err, characters) => {
